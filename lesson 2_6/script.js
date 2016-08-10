@@ -1,6 +1,3 @@
-var i = 1;
-
-while (i <= 10) {
+for (var i=0; i<10; i++) {
 	alert(i);
-	i++;
 }
