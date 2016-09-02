@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var func = __webpack_require__(1);
-	var x = func(2, 5);
+	var x = func(3, 7);
 	console.log(x);
 
 /***/ },
