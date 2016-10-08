@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<script src="handlebars.min.js"></script>
 	<script src="script.js"></script>
 </head>
 <body>
@@ -14,12 +15,13 @@
 	<div class="top" id="top">
 		<div class="container">
 			<div class="top-list text-right" id="main-menu">
-				<ul class="list-unstyled list-inline">
-					<li>START</li>
-					<li>OFERTA</li>
-					<li>O NAS</li>
-					<li>KONTAKT</li>
-				</ul>			
+				<script id="main-menu-template" type="text/x-handlebars-template">
+					<ul class="list-unstyled list-inline">
+					{{#each items}}
+						<li>{{item}}</li>
+					{{/each}}
+					</ul>
+				</script>			
 			</div>
 		</div>
 	</div>
