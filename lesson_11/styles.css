@@ -1,0 +1,61 @@
+body {
+	padding-top: 50px;
+	font-family: 'Lato', 'Arial', sans-serif;
+}
+
+/* Override dla kolorow */
+body {
+
+}
+
+.navbar-default {
+	background-color: #090916;
+}
+
+.navbar-default .navbar-brand {
+	color: #EDF1FA;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #EDF1FA;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #EDF1FA;
+}
+
+.navbar-fixed-top {
+	border: none;
+}
+
+.jumbotron {
+	background-color: #ADB0B9;	
+	color: #EDF1FA;
+}
+
+i {
+	color: #ED885F;
+}
+
+/* Rozne sekcje dokumentu */
+.jumbotron {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-bottom: 0;
+}
+
+.main-content, .boxes {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.boxes i {
+	font-size: 40px;
+}
+
+footer {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background: #3B3C41;
+	color: #EDF1FA;
+}

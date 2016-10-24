@@ -1,0 +1,96 @@
+    <html>
+      <head>
+        <title>Angular 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="styles.css">
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="systemjs.config.js"></script>
+        <script>
+          System.import('app').catch(function(err){ console.error(err); });
+        </script>
+      </head>
+      <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">LOGO</a>
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="">Start</a></li>
+                <li><a href="">Nowości</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Opinie</a></li>
+              </ul>
+              <form action="" class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" placeholder="Szukaj" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-danger">Wyślij</button>  
+              </form>
+            </div>
+          </div>
+        </nav>
+
+       <!-- Top -->
+        <div class="jumbotron">
+          <div class="container">
+            <h1>Modern App</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio placeat voluptate labore?</p>
+            <p><a href="" class="btn btn-primary btn-lg">Zobacz więcej</a></p>            
+          </div>
+        </div>
+
+        <!-- Dynamiczna zawartosc komponentu -->
+        <div class="main-content text-center">
+          <div class="container">
+
+            <my-app>Loading...</my-app>
+
+          </div>
+        </div>
+
+        <!-- HR -->
+        <div class="container">
+          <hr>
+        </div>
+
+        <!-- boxy -->
+        <div class="boxes">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <i class="fa fa-instagram" aria-hidden="true" class="first-icon"></i>
+                <h3>Aplikacje</h3>
+                <p>Voluptate non blanditiis quis voluptas, atque fuga officiis vero excepturi. Laudantium, iusto minima non voluptatibus sequi libero consequatur porro.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <i class="fa fa-bar-chart" aria-hidden="true" class="second-icon"></i>
+                <h3>Serwery</h3>
+                <p>Voluptate non blanditiis quis voluptas, atque fuga officiis vero excepturi. Laudantium, iusto minima non voluptatibus sequi libero consequatur porro.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <i class="fa fa-calculator" aria-hidden="true" class="third-icon"></i>
+                <h3>Pliki</h3>
+                <p>Voluptate non blanditiis quis voluptas, atque fuga officiis vero excepturi. Laudantium, iusto minima non voluptatibus sequi libero consequatur porro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="container">
+            <h4>Ossimus consequatur</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad porro quo possimus consequatur inventore at unde alias nesciunt est asperiores?</p>
+          </div>
+        </footer>
+
+      </body>
+    </html>
