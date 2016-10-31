@@ -1,8 +1,11 @@
 var express = require('express');
+var path = require('path');
 var app = express();
 
+app.use(express.static('public'));
+
 app.get('/', function(req, res){
-	res.send('Strona Index');
+	res.sendFile(path.join(__dirname + './index.html'));
 });
 
 app.get('/contact', function(req, res){
