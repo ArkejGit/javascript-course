@@ -1,3 +1,3 @@
-$(documen).ready(function(){
+$(document).ready(function(){
 	$('.my-slider').unslider();
 });
